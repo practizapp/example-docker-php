@@ -2,7 +2,9 @@
 
 Build a simple laravel development environment with docker-compose. Compatible with Windows(WSL2), macOS(M1) and Linux.
 
-## Usage
+## How to Usage
+
+` Refer to your Linux distribution documentation for how to install php `
 
 ```bash
 $ make create-project # Install the Laravel project

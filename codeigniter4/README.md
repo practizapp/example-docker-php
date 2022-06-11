@@ -61,3 +61,21 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - [mbstring](http://php.net/manual/en/mbstring.installation.php)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
 - xml (enabled by default - don't turn it off)
+
+## How to Usage
+
+` Refer to your Linux distribution documentation for how to install php `
+```
+// Create Image
+$ sudo docker build -f Dockerfile -t example-docker-ci4:v1 .
+$ sudo docker run -d -p 80:80 -t example-docker-ci4:v1
+
+    access http://localhost:80
+```
+
+```
+// Docker compose run
+$ sudo docker-compose up -d
+
+    access http://localhost:80
+```
